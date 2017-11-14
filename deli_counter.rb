@@ -9,7 +9,6 @@ def line(current_line)
         new_array=  current_line.map.each_with_index do |name, index|
          "#{index.to_i + 1}. #{name}"
       end
-      binding.pry
       puts "The line is currently: #{new_array}."
     end
 end
