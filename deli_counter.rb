@@ -9,7 +9,7 @@ def line(current_line)
         new_array=  current_line.map.each_with_index do |name, index|
          "#{index.to_i + 1}. #{name}"
       end
-      puts "The line is currently: #{new_array}."
+      puts "The line is currently: #{new_array.join}."
     end
 end
 
